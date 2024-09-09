@@ -21,10 +21,10 @@ This project aims to detect lung cancer and brain tumors from medical images usi
    ```sh
    git clone https://github.com/sravan7684/CancerPrediction.git
 2. **Create a virtual environmen:**
-      ```sh
+   ```sh
      python -m venv venv
     source venv/bin/activate  # On Windows use
-       `venv\Scripts\activate`
+       venv\Scripts\activate
 
 3. **Install the required packages:**
    ```sh
@@ -40,13 +40,14 @@ This project aims to detect lung cancer and brain tumors from medical images usi
          python train_model_brain_tumor.py
 5.  **Saving the models:**
    After running the train_model files for brain and lung cancer save the modesla in the same folder
+
    -> model for brain tumor 
       ```sh
-       brain_tumor_model.keras
+        brain_tumor_model.keras
+       
    -> model for lung cancer
       ```sh
-      
-       brain_tumor_model.keras
+      brain_tumor_model.keras
             
 
 6.  **Running the Streamlit Apps:**
