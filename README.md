@@ -21,11 +21,15 @@ This project aims to detect lung cancer and brain tumors from medical images usi
    ```sh
    git clone https://github.com/sravan7684/CancerPrediction.git
 2. **Create a virtual environmen:**
+      ```sh
      python -m venv venv
-    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+    source venv/bin/activate  # On Windows use
+     ```sh
+       `venv\Scripts\activate`
 
 3. **Install the required packages:**
-         `pip install -r requirements.txt`
+   ```sh
+         pip install -r requirements.txt
 
 
 4.  **Training the Models:**
@@ -39,7 +43,7 @@ This project aims to detect lung cancer and brain tumors from medical images usi
 
 
 5.  **Running the Streamlit Apps:**
-
+   ```sh
         streamlit run file_name.py
 
 Project Files
