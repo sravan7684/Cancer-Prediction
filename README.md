@@ -26,7 +26,8 @@ This project aims to detect lung cancer and brain tumors from medical images usi
     source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 
 3. **Install the required packages:**
-     '''sh 'pip install -r requirements.txt'
+       ```sh
+         'pip install -r requirements.txt'
 
 
 4.  **Training the Models:**
