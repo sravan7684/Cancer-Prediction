@@ -24,7 +24,6 @@ This project aims to detect lung cancer and brain tumors from medical images usi
       ```sh
      python -m venv venv
     source venv/bin/activate  # On Windows use
-     ```sh
        `venv\Scripts\activate`
 
 3. **Install the required packages:**
@@ -43,10 +42,9 @@ This project aims to detect lung cancer and brain tumors from medical images usi
 
 
 5.  **Running the Streamlit Apps:**
-   ```sh
+       ```sh
         streamlit run file_name.py
-
-Project Files
+6.  Project Files
 
 train_model_lung_cancer.py: Script to train the CNN model for lung cancer detection.
 train_model_brain_tumor.py: Script to train the CNN model for brain tumor detection.
