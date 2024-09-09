@@ -32,13 +32,15 @@ This project aims to detect lung cancer and brain tumors from medical images usi
 
     Prepare the dataset: Ensure your dataset is organized as shown in the project structure.
 
-    Run the training script: `python train_model_lung_cancer.py`
-                              `python train_model_brain_tumor.py`
+    Run the training script: 
+      ```sh 
+         python train_model_lung_cancer.py
+         python train_model_brain_tumor.py
 
 
 5.  **Running the Streamlit Apps:**
 
-        `streamlit run file_name.py`
+        streamlit run file_name.py
 
 Project Files
 
