@@ -32,19 +32,27 @@ This project aims to detect lung cancer and brain tumors from medical images usi
 
 
 4.  **Training the Models:**
-
     Prepare the dataset: Ensure your dataset is organized as shown in the project structure.
 
     Run the training script: 
       ```sh 
          python train_model_lung_cancer.py
          python train_model_brain_tumor.py
+5.  **Saving the models:**
+   After running the train_model files for brain and lung cancer save the modesla in the same folder
+   -> model for brain tumor 
+      ```sh
+       brain_tumor_model.keras
+   -> model for lung cancer
+      ```sh
+      
+       brain_tumor_model.keras
+            
 
-
-5.  **Running the Streamlit Apps:**
+6.  **Running the Streamlit Apps:**
        ```sh
         streamlit run file_name.py
-6.  Project Files
+7.  Project Files
 
 train_model_lung_cancer.py: Script to train the CNN model for lung cancer detection.
 train_model_brain_tumor.py: Script to train the CNN model for brain tumor detection.
