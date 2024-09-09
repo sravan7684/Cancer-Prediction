@@ -29,7 +29,7 @@ This project aims to detect lung cancer and brain tumors from medical images usi
      '''sh 'pip install -r requirements.txt'
 
 
-4.  **Training the Models**
+4.  **Training the Models:**
 
     Prepare the dataset: Ensure your dataset is organized as shown in the project structure.
 
