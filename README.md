@@ -20,7 +20,6 @@ This project aims to detect lung cancer and brain tumors from medical images usi
 1. **Clone the repository:**
    ```sh
    git clone https://github.com/sravan7684/CancerPrediction.git
-   cd your-repository
 2. **Create a virtual environmen:**
      python -m venv venv
     source venv/bin/activate  # On Windows use `venv\Scripts\activate`
