@@ -21,53 +21,90 @@ This project aims to detect lung cancer and brain tumors from medical images usi
    ```sh
    git clone https://github.com/sravan7684/CancerPrediction.git
 2. **Create a virtual environmen:**
-   ```sh
+   ```python
      python -m venv venv
-    source venv/bin/activate  # On Windows use
-       venv\Scripts\activate
+     source venv/bin/activate 
+     # On Windows use
+     venv\Scripts\activate
+   ```
 
 3. **Install the required packages:**
-   ```sh
+   ```bash
          pip install -r requirements.txt
-
 
 4.  **Training the Models:**
     Prepare the dataset: Ensure your dataset is organized as shown in the project structure.
 
     Run the training script: 
-      ```sh 
+      ```python
          python train_model_lung_cancer.py
          python train_model_brain_tumor.py
+       ```
 5.  **Saving the models:**
    After running the train_model files for brain and lung cancer save the modesla in the same folder
 
    -> model for brain tumor 
-      ```sh
-        brain_tumor_model.keras
-       
-   -> model for lung cancer
-      ```sh
-      brain_tumor_model.keras
-            
 
+    
+
+      brain_tumor_model.keras
+    
+   -> model for lung cancer
+   
+      brain_tumor_model.keras
 6.  **Running the Streamlit Apps:**
-       ```sh
-        streamlit run file_name.py
+       
+      streamlit run file_name.py
 7.  **Project Files:**
 
-train_model_lung_cancer.py: Script to train the CNN model for lung cancer detection.
+> __train_model_lung_cancer.py__ : Script to train the CNN model for lung cancer detection.
 
-train_model_brain_tumor.py: Script to train the CNN model for brain tumor detection.
+> __train_model_brain_tumor.py__ : Script to train the CNN model for brain tumor detection.
 
-cancer.py: Streamlit app to upload an image and get predictions from the trained lung cancer model.
+> __cancer.py :__ Streamlit app to upload an image and get predictions from the trained lung cancer model.
 
-brain_tumor.py: Streamlit app to upload an image and get predictions from the trained brain tumor model.
+> __brain_tumor.py :__ Streamlit app to upload an image and get predictions from the trained brain tumor model.
+ Model Architectures
 
-    
+8.  **Lung Cancer Model:**
+   The model is a Convolutional Neural Network (CNN) with the following layers:
 
-    
+          Convolutional layers with ReLU activation
+          MaxPooling layers
+          Flatten layer
+          Dense layers with ReLU activation
+          Dropout layer
+          Output layer with softmax activation for multi-class classification
+       
+
+9. **Brain Tumor Model:**
+    The model is a Convolutional Neural Network (CNN) with the following layers:
+
+         Convolutional layers with ReLU activation
+         MaxPooling layers
+         Flatten layer
+         Dense layers with ReLU activation
+         Dropout layer
+         Output layer with sigmoid activation for binary classification
 
    
+11. **License:**
+   This project is licensed under the MIT License. See the LICENSE file for details.
 
+12. **Acknowledgements**
+
+      The datasets used for training the models.
+      TensorFlow and Keras for providing the deep learning framework.
+      Streamlit for providing the web app framework.
+
+13. **Contact:**
    
+      For any questions or suggestions, please contact sravankumar7684@gmail.com.
+  
+   
+
+
+
+
+
 
