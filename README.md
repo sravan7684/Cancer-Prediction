@@ -14,6 +14,8 @@ This project aims to detect lung cancer and brain tumors from medical images usi
 - Streamlit
 - PIL (Pillow)
 - NumPy
+- Dataset for Brain Tumor - https://www.kaggle.com/datasets/navoneel/brain-mri-images-for-brain-tumor-detection
+- Datastets for Lung Cancer - https://www.kaggle.com/datasets/adityamahimkar/iqothnccd-lung-cancer-dataset
 
 ### Installation
 
