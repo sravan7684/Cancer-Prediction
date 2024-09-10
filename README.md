@@ -57,14 +57,15 @@ This project aims to detect lung cancer and brain tumors from medical images usi
       streamlit run file_name.py
 7.  **Project Files:**
 
-> __train_model_lung_cancer.py__ : Script to train the CNN model for lung cancer detection.
+   > __train_model_lung_cancer.py__ : Script to train the CNN model for lung cancer detection.
+   
+   > __train_model_brain_tumor.py__ : Script to train the CNN model for brain tumor detection.
+   
+   > __cancer.py :__ Streamlit app to upload an image and get predictions from the trained lung cancer model.
+   
+   > __brain_tumor.py :__ Streamlit app to upload an image and get predictions from the trained brain tumor model.
+    Model Architectures
 
-> __train_model_brain_tumor.py__ : Script to train the CNN model for brain tumor detection.
-
-> __cancer.py :__ Streamlit app to upload an image and get predictions from the trained lung cancer model.
-
-> __brain_tumor.py :__ Streamlit app to upload an image and get predictions from the trained brain tumor model.
- Model Architectures
 
 8.  **Lung Cancer Model:**
    The model is a Convolutional Neural Network (CNN) with the following layers:
