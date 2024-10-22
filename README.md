@@ -54,7 +54,7 @@ This project aims to detect lung cancer and brain tumors from medical images usi
          brain_tumor_model.keras
 6.  **Running the Streamlit Apps:**
        
-      streamlit run file_name.py
+        streamlit run file_name.py
 7.  **Project Files:**
 
    -  __train_model_lung_cancer.py__ : Script to train the CNN model for lung cancer detection.
