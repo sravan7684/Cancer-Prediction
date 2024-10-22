@@ -32,12 +32,12 @@ This project aims to detect lung cancer and brain tumors from medical images usi
 
 3. **Install the required packages:**
    ```bash
-         pip install -r requirements.txt
+    pip install -r requirements.txt
 
 4.  **Training the Models:**
     Prepare the dataset: Ensure your dataset is organized as shown in the project structure.
-
-    Run the training script: 
+    
+     Run the training script: 
       ```python
          python train_model_lung_cancer.py
          python train_model_brain_tumor.py
@@ -45,28 +45,28 @@ This project aims to detect lung cancer and brain tumors from medical images usi
 5.  **Saving the models:**
    After running the train_model files for brain and lung cancer save the modesla in the same folder
 
-   -> model for brain tumor 
+   - model for brain tumor 
 
+           brain_tumor_model.keras
     
-
-      brain_tumor_model.keras
-    
-   -> model for lung cancer
+   - model for lung cancer
    
-      brain_tumor_model.keras
+         brain_tumor_model.keras
 6.  **Running the Streamlit Apps:**
        
       streamlit run file_name.py
 7.  **Project Files:**
 
-   > __train_model_lung_cancer.py__ : Script to train the CNN model for lung cancer detection.
+   -  __train_model_lung_cancer.py__ : Script to train the CNN model for lung cancer detection.
    
-   > __train_model_brain_tumor.py__ : Script to train the CNN model for brain tumor detection.
+   -  __train_model_brain_tumor.py__ : Script to train the CNN model for brain tumor detection.
    
-   > __cancer.py :__ Streamlit app to upload an image and get predictions from the trained lung cancer model.
+   - __cancer.py :__ Streamlit app to upload an image and get predictions from the trained lung cancer model.
    
-   > __brain_tumor.py :__ Streamlit app to upload an image and get predictions from the trained brain tumor model.
-    Model Architectures
+   - __brain_tumor.py :__ Streamlit app to upload an image and get predictions from the trained brain tumor model.
+  
+  
+  **Model Architectures:**
 
 
 8.  **Lung Cancer Model:**
@@ -94,7 +94,7 @@ This project aims to detect lung cancer and brain tumors from medical images usi
 11. **License:**
    This project is licensed under the MIT License. See the LICENSE file for details.
 
-12. **Acknowledgements**
+12. **Acknowledgements:**
 
       The datasets used for training the models.
       TensorFlow and Keras for providing the deep learning framework.
