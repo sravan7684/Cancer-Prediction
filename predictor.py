@@ -6,7 +6,7 @@ from PIL import Image, ImageOps
 import numpy as np
 import cv2
 
-st.title("OncoDetect")
+st.title("Cancer Predictor")
 
 uploaded_file=st.file_uploader("Choose a file for Lung Cancer Detection", type=["jpg", "png", "jpeg"])
 
